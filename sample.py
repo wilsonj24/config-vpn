@@ -8,7 +8,7 @@ def main():
 	# Input the user data
 	print("\n |Welcome to the VPN Config Program!\n"
 	+ "\n|Note if you want to create your own VPN you will need a running cloud instacnce|\n")
-	print("Press 1 for yes and 2 for no\n")
+	print("Press 1 for yes and 0 for no\n")
 	print ("Would you like to enable IPsec support? This will allow for more secure connections between devices as it uses encryption\n")
 	data = input("Option: ")
 	# write data to the file

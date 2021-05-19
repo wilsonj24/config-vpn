@@ -1,3 +1,9 @@
-# How to configure your Algo VPN file
+# Documentation
 
-This markdown file is to explain how a user can configure the associated configuration file that is with algo.
+This markdown file is to explain how a user can download and configure the associated configuration file that is with algo. In order to personalize the configuration file, the user is going to need to download all of the necessary algoVPN files but also have a running cloud instance in order to run. You can find all of the necessary information here: https://github.com/trailofbits/algo
+
+
+# How to run Algo
+
+In order to run algo, you must first have a running cloud instance to host the server that you are trying to create your VPN on. After having the cloud instance running, you must next navigate to where you downloaded the required algo files. From here, you may need to upgrade and install some dependencies which the github link above should help you with. Once everything is taken care of, you are going to navigate to the config-vpn.py program. This program was created to help users understand and make the configuration process a little easier since it may not be totally clear and understandable to the user for their first time. Simply run this program, follow the steps that are provided and answer the associated questions. This will help the user to get a better feel and understanding of what you may need when you set up your own VPN. After you have ran that program and answered the associated questions, you will then navigate to the output file that the program had created. The name of the file should be 'config.txt'. Open the file and here you should see a bunch of configurations with true and false. Keep this window open and now navigate back to the algoVPN folder. From this folder, you will want to navigate to the config.cfg file and now change this file with the answers that are in the config.txt file. This will now change your VPN configuration with the options that you need. From here you can navigate back to the algo folder and simply type "./algo". You now should be able to run your algo
+and start setting up your own VPN. Simply just follow the associated steps in order to get your server up and running.
